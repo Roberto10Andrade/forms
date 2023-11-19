@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Área de cadastro</title>
+</head>
+<body>
+  <h1>Área de Cadastro</h1>
+  <form action="/enviar" method="post">
+    <input type="text" name="nome" placeholder="Nome"><br>
+    <input type="email" name="email" placeholder="E-mail"><br>
+    <input type="text" name="cpf" placeholder="CPF"><br>
+    <input type="text" name="rg" placeholder="RG"><br>
+    <input type="date" name="data_nascimento" placeholder="Data de nascimento"><br>
+    <input type="text" name="rua" placeholder="Rua"><br>
+    <input type="number" name="numero" placeholder="Número"><br>
+    <input type="text" name="bairro" placeholder="Bairro"><br>
+    <input type="text" name="cidade" placeholder="Cidade"><br>
+    <select name="sexo"><br>
+      <option value="escolher">Escolher</option>
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+    </select>
+    <select name="raca"><br>
+      <option value="escolher">Escolher</option>              
+      <option value="branca">Branca</option>
+      <option value="preta">Preta</option>
+      <option value="parda">Parda</option>
+      <option value="amarela">Amarela</option>
+      <option value="indígena">Indígena</option>
+    </select>
+    <br><input type="submit" value="Enviar">
+    <input type="reset" value="Limpar"><br>
+  </form>
+</body>
+</html>
