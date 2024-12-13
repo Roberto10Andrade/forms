@@ -1,8 +1,6 @@
 # forms
 
-Formulário VueJS com Exibição de Dados em Outro Componente
-```
-DESENVOLVIMENTO WEB III Unidade 3 - Tarefa 3
+Formulário VueJS com Exibição de Dados em Outro Componente -DESENVOLVIMENTO WEB III Unidade 3 - Tarefa 3
 
 ## Project setup
 ```
